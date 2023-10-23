@@ -22,7 +22,7 @@ header {
       rgba(16, 20, 43, 0.52),
       rgba(69, 58, 99, 0.73)
     ),
-    url(src/assets/wallpaper.jpg);
+    url(../assets/wallpaper.jpg);
 }
 
 .foot {
