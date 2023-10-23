@@ -1,0 +1,168 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+header,
+section {
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #333333;
+  color: #f5f5f5;
+  padding-bottom: 8px;
+}
+
+header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(16, 20, 43, 0.52),
+      rgba(69, 58, 99, 0.73)
+    ),
+    url(src/assets/wallpaper.jpg);
+}
+
+.foot {
+  background-color: #333333;
+  color: #f5f5f5;
+}
+
+section:nth-child(2n) {
+  background-color: #215577;
+  color: #ffffff;
+  padding-top: 150px;
+}
+.contact {
+  padding-top: 400px;
+}
+
+.section-title {
+  font-size: 60px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+}
+.name {
+  font-family: "Great Vibes", cursive;
+  background-color: red;
+  color: rgb(202, 182, 182);
+  padding: 2px;
+  padding-right: 8px;
+}
+
+.touch {
+  border: #d3d3d3 solid;
+  background-color: #333333;
+  padding: 5px;
+}
+
+p {
+  font-size: 27px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+.sumry {
+  border-right: 2px dashed #d3d3d3;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  background-color: #3498db;
+}
+
+.hd-pd {
+  padding-right: 14px;
+}
+.wbox {
+  margin-left: -85px;
+}
+
+.pd-p {
+  margin-top: -15px;
+}
+
+.time-pd {
+  margin-top: -2px;
+  padding-top: 8px;
+}
+
+.lft {
+  padding-left: 18px;
+}
+
+.socials {
+  border-right: 2px solid #d3d3d3;
+  padding-right: 4px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.hero {
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-content article {
+  flex-direction: column;
+}
+
+section.crafts article {
+  gap: 24px;
+  margin-top: 20px;
+}
+
+section.crafts img {
+  height: 230px;
+}
+
+.contact ul {
+  padding: 0;
+}
+
+.contact ul > li {
+  display: inline-block;
+}
